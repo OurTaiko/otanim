@@ -45,7 +45,7 @@ go install ./cmd/spine2otanim                                  # 装成命令
 
 ## 例子
 
-例：维什戴尔战斗正面（配置在用户的 `~/Downloads/维什戴尔_otanim/wisdel.otanim.json`）：`idle=Idle`、`gogo=Skill_3_Begin+Skill_3_Loop`（第 25 帧起循环）、`combo=Attack_A:once`、`happy=Skill_1:once`、`miss=Stun`，167 KB。
+例：一个明日方舟角色（维什戴尔）的战斗正面小人，配置为 `idle=Idle`、`gogo=Skill_3_Begin+Skill_3_Loop`（第 25 帧起循环）、`combo=Attack_A:once`、`happy=Skill_1:once`、`miss=Stun`，转出来 167 KB。素材版权归原作者，不在本仓库里。
 
 例：同一角色的基建小人（Spine 3.8.99，47 骨骼、55 网格），只取 Relax／Move／Interact／Sleep 四段，贴图缩到 512：**186 KB**（贴图 166 KB，四段动画合计约 20 KB）。全部 7 段、原图集：978 KB。
 
