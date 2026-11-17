@@ -49,3 +49,7 @@ go install ./cmd/spine2otanim                                  # 装成命令
 
 例：同一角色的基建小人（Spine 3.8.99，47 骨骼、55 网格），只取 Relax／Move／Interact／Sleep 四段，贴图缩到 512：**186 KB**（贴图 166 KB，四段动画合计约 20 KB）。全部 7 段、原图集：978 KB。
 
+
+## 许可
+
+MIT，见 [LICENSE](LICENSE)。格式本身（SPEC.md）任何人都可以实现。用 spine2otanim 转换的素材，版权仍归素材的作者；转换 Spine 导出的文件不需要 Spine Runtimes 的授权（本仓库没有用它的代码），但用 Spine 编辑器做素材需要 Spine 自己的授权。
